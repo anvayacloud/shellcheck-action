@@ -19,7 +19,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run ShellCheck
-      uses: cfy9/shellcheck-action@main
+      uses: anvayacloud/shellcheck-action@main
 ```
 
 ## ShellCheck options
@@ -35,7 +35,7 @@ example:
 ```yaml
     ...
     - name: Run ShellCheck
-      uses: cfy9/shellcheck-action@main
+      uses: anvayacloud/shellcheck-action@main
       with:
         SHELLCHECK_OPTS: -e SC2059 -e SC2034
 ```
